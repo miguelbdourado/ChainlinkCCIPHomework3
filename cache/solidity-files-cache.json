@@ -1,0 +1,1489 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\contracts\\BurnMintERC677.sol": {
+      "lastModificationDate": 1724540723858,
+      "contentHash": "e378767afda93d98d8e35ba1bdfa6510",
+      "sourceName": "contracts/BurnMintERC677.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts-ccip/src/v0.8/shared/token/ERC677/BurnMintERC677.sol"
+      ],
+      "versionPragmas": [
+        "0.8.20"
+      ],
+      "artifacts": []
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\shared\\token\\ERC677\\BurnMintERC677.sol": {
+      "lastModificationDate": 1724536344515,
+      "contentHash": "be17bdeaad3770dfcfdb856967c223a0",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/shared/token/ERC677/BurnMintERC677.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../ERC20/IBurnMintERC20.sol",
+        "./IERC677.sol",
+        "./ERC677.sol",
+        "../../access/OwnerIsCreator.sol",
+        "../../../vendor/openzeppelin-solidity/v4.8.3/contracts/token/ERC20/extensions/ERC20Burnable.sol",
+        "../../../vendor/openzeppelin-solidity/v4.8.3/contracts/utils/structs/EnumerableSet.sol",
+        "../../../vendor/openzeppelin-solidity/v4.8.3/contracts/utils/introspection/IERC165.sol",
+        "../../../vendor/openzeppelin-solidity/v4.8.3/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BurnMintERC677"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\shared\\access\\OwnerIsCreator.sol": {
+      "lastModificationDate": 1724536347033,
+      "contentHash": "2e85bb7fde60a677f51b71cf01998621",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/shared/access/OwnerIsCreator.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ConfirmedOwner.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OwnerIsCreator"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\shared\\token\\ERC20\\IBurnMintERC20.sol": {
+      "lastModificationDate": 1724536346372,
+      "contentHash": "a054e666840980be51c0541f65d3e3ee",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/shared/token/ERC20/IBurnMintERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../vendor/openzeppelin-solidity/v4.8.3/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IBurnMintERC20"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\vendor\\openzeppelin-solidity\\v4.8.3\\contracts\\utils\\introspection\\IERC165.sol": {
+      "lastModificationDate": 1724536346416,
+      "contentHash": "0fb8a98c0dcbb3f0f693ed5e24e0f32f",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\vendor\\openzeppelin-solidity\\v4.8.3\\contracts\\utils\\structs\\EnumerableSet.sol": {
+      "lastModificationDate": 1724536345911,
+      "contentHash": "26787abe77a8626e89fb583b47541562",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/utils/structs/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\vendor\\openzeppelin-solidity\\v4.8.3\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1724536346453,
+      "contentHash": "f6bef94ade8b5ed3716b09193a42ff00",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\shared\\token\\ERC677\\ERC677.sol": {
+      "lastModificationDate": 1724536346172,
+      "contentHash": "8ccfc85d26f5c356ea258dc522cc4071",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/shared/token/ERC677/ERC677.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC677.sol",
+        "../../interfaces/IERC677Receiver.sol",
+        "../../../vendor/openzeppelin-solidity/v4.8.3/contracts/utils/Address.sol",
+        "../../../vendor/openzeppelin-solidity/v4.8.3/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC677"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\shared\\token\\ERC677\\IERC677.sol": {
+      "lastModificationDate": 1724536346480,
+      "contentHash": "41a8dd702db7bbb8109ec60a71482790",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/shared/token/ERC677/IERC677.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC677"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\vendor\\openzeppelin-solidity\\v4.8.3\\contracts\\token\\ERC20\\extensions\\ERC20Burnable.sol": {
+      "lastModificationDate": 1724536346091,
+      "contentHash": "2420c57e86b563e6fcf67208fefc5667",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/token/ERC20/extensions/ERC20Burnable.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../ERC20.sol",
+        "../../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Burnable"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\shared\\access\\ConfirmedOwner.sol": {
+      "lastModificationDate": 1724536344974,
+      "contentHash": "1ed782c1e3014a255f9171aefc3cdde3",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/shared/access/ConfirmedOwner.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ConfirmedOwnerWithProposal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ConfirmedOwner"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\shared\\access\\ConfirmedOwnerWithProposal.sol": {
+      "lastModificationDate": 1724536345000,
+      "contentHash": "8f6ff288f6d625614e910f54d701385c",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/shared/access/ConfirmedOwnerWithProposal.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IOwnable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ConfirmedOwnerWithProposal"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\shared\\interfaces\\IOwnable.sol": {
+      "lastModificationDate": 1724536346672,
+      "contentHash": "b3ae9b7345205a0a65f3e0f89c176d88",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/shared/interfaces/IOwnable.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IOwnable"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\shared\\interfaces\\IERC677Receiver.sol": {
+      "lastModificationDate": 1724536346519,
+      "contentHash": "c73f0d0e1d270b32a66512039681f520",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/shared/interfaces/IERC677Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.6"
+      ],
+      "artifacts": [
+        "IERC677Receiver"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\vendor\\openzeppelin-solidity\\v4.8.3\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1724536344198,
+      "contentHash": "3630806b443da777715cafd76af280b3",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\vendor\\openzeppelin-solidity\\v4.8.3\\contracts\\token\\ERC20\\ERC20.sol": {
+      "lastModificationDate": 1724536346069,
+      "contentHash": "254f3d48dc9a54a5b94d37a781d4fea8",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\vendor\\openzeppelin-solidity\\v4.8.3\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1724536345104,
+      "contentHash": "1e1cb702810ab17e9aa437c9b18c5cfe",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\vendor\\openzeppelin-solidity\\v4.8.3\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
+      "lastModificationDate": 1724536346467,
+      "contentHash": "5e05730cc06e51bcc3f9170ac6e210cf",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\vendor\\openzeppelin-solidity\\v4.8.3\\contracts\\token\\ERC20\\utils\\SafeERC20.sol": {
+      "lastModificationDate": 1724536347221,
+      "contentHash": "0ad0c708dec9d877965c02c3f36d2bfc",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/token/ERC20/utils/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol",
+        "../extensions/draft-IERC20Permit.sol",
+        "../../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\vendor\\openzeppelin-solidity\\v4.8.3\\contracts\\token\\ERC20\\extensions\\draft-IERC20Permit.sol": {
+      "lastModificationDate": 1724536345340,
+      "contentHash": "9715a5ff5044f6fc409bd5e467b0a2b7",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/token/ERC20/extensions/draft-IERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Permit"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\ccip\\test\\mocks\\MockRouter.sol": {
+      "lastModificationDate": 1724536346941,
+      "contentHash": "68fea207039ad1d93d4f88c18ea6129d",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/ccip/test/mocks/MockRouter.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IRouter.sol",
+        "../../interfaces/IRouterClient.sol",
+        "../../interfaces/IAny2EVMMessageReceiver.sol",
+        "../../libraries/Client.sol",
+        "../../../shared/call/CallWithExactGas.sol",
+        "../../libraries/Internal.sol",
+        "../../../vendor/openzeppelin-solidity/v4.8.3/contracts/token/ERC20/utils/SafeERC20.sol",
+        "../../../vendor/openzeppelin-solidity/v4.8.3/contracts/token/ERC20/IERC20.sol",
+        "../../../vendor/openzeppelin-solidity/v4.8.3/contracts/utils/introspection/ERC165Checker.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MockCCIPRouter"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\ccip\\interfaces\\IRouterClient.sol": {
+      "lastModificationDate": 1724536346748,
+      "contentHash": "d5dff35c6ac31576425c45093b9f7ba6",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/Client.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IRouterClient"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\ccip\\interfaces\\IRouter.sol": {
+      "lastModificationDate": 1724536346736,
+      "contentHash": "56bab1c6e8e32cbf573460c444fec3fc",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouter.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/Client.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IRouter"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\ccip\\libraries\\Internal.sol": {
+      "lastModificationDate": 1724536346659,
+      "contentHash": "ae2d7a53daff6739810d5399e955219f",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Internal.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Client.sol",
+        "../libraries/MerkleMultiProof.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Internal"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\ccip\\interfaces\\IAny2EVMMessageReceiver.sol": {
+      "lastModificationDate": 1724536346300,
+      "contentHash": "5272b7cd41d28d83d1560a7703bda230",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IAny2EVMMessageReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/Client.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAny2EVMMessageReceiver"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\ccip\\libraries\\Client.sol": {
+      "lastModificationDate": 1724536344874,
+      "contentHash": "fa84e2ad762a2dc3fd210a0737f54c3f",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Client"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\shared\\call\\CallWithExactGas.sol": {
+      "lastModificationDate": 1724536344700,
+      "contentHash": "b1e24308b5d2cdcac5b65455f4cac3bb",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/shared/call/CallWithExactGas.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CallWithExactGas"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\vendor\\openzeppelin-solidity\\v4.8.3\\contracts\\utils\\introspection\\ERC165Checker.sol": {
+      "lastModificationDate": 1724536345995,
+      "contentHash": "27961a3f238c401f1b372fa6955a4c62",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/utils/introspection/ERC165Checker.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165Checker"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\ccip\\libraries\\MerkleMultiProof.sol": {
+      "lastModificationDate": 1724536346854,
+      "contentHash": "2dc14b85686e474498e2701dd9910d24",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/MerkleMultiProof.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MerkleMultiProof"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@chainlink\\contracts-ccip\\src\\v0.8\\ccip\\applications\\CCIPReceiver.sol": {
+      "lastModificationDate": 1724536344816,
+      "contentHash": "0f6f98069017878757b3d5d12dfc19b9",
+      "sourceName": "@chainlink/contracts-ccip/src/v0.8/ccip/applications/CCIPReceiver.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IAny2EVMMessageReceiver.sol",
+        "../libraries/Client.sol",
+        "../../vendor/openzeppelin-solidity/v4.8.3/contracts/utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CCIPReceiver"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\contracts\\Sender.sol": {
+      "lastModificationDate": 1724540719557,
+      "contentHash": "67b93c2a54cebf1126c056ef9ed9a866",
+      "sourceName": "contracts/Sender.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol",
+        "@chainlink/contracts-ccip/src/v0.8/shared/access/OwnerIsCreator.sol",
+        "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol",
+        "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/token/ERC20/IERC20.sol",
+        "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/token/ERC20/utils/SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.20"
+      ],
+      "artifacts": [
+        "Sender"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\contracts\\Receiver.sol": {
+      "lastModificationDate": 1724540718770,
+      "contentHash": "51eb51ffea95fb0bfe66e8903a4768a4",
+      "sourceName": "contracts/Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol",
+        "@chainlink/contracts-ccip/src/v0.8/ccip/applications/CCIPReceiver.sol",
+        "@chainlink/contracts-ccip/src/v0.8/shared/access/OwnerIsCreator.sol"
+      ],
+      "versionPragmas": [
+        "0.8.20"
+      ],
+      "artifacts": [
+        "Receiver"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\contracts\\MockCCIPRouter.sol": {
+      "lastModificationDate": 1724540738705,
+      "contentHash": "98a336c72f6cefb2037613b13309d9c6",
+      "sourceName": "contracts/MockCCIPRouter.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts-ccip/src/v0.8/ccip/test/mocks/MockRouter.sol"
+      ],
+      "versionPragmas": [
+        "0.8.20"
+      ],
+      "artifacts": []
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\contracts\\TransferUSDC.sol": {
+      "lastModificationDate": 1724540640151,
+      "contentHash": "e4009efddead5233a2013be11f5ed46e",
+      "sourceName": "contracts/TransferUSDC.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IRouterClient.sol",
+        "@chainlink/contracts-ccip/src/v0.8/shared/access/OwnerIsCreator.sol",
+        "@chainlink/contracts-ccip/src/v0.8/ccip/libraries/Client.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "TransferUSDC"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1724540360494,
+      "contentHash": "5517c8678c18eb1a8ba58810e7ca39ca",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\utils\\SafeERC20.sol": {
+      "lastModificationDate": 1724540360521,
+      "contentHash": "697fd27924863e77c17dace2179018b2",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol",
+        "../extensions/IERC20Permit.sol",
+        "../../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1724540360411,
+      "contentHash": "79c699f80eb8a9b168cb34e37816f894",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Permit.sol": {
+      "lastModificationDate": 1724540360496,
+      "contentHash": "da291753fa4641f2c5837bfc4aa4c01b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20Permit"
+      ]
+    },
+    "C:\\Users\\Miguel\\Documents\\Projetos\\ChainlinkCCIPHomework3\\contracts\\GasEstimation.sol": {
+      "lastModificationDate": 1724540726476,
+      "contentHash": "8c5e0f39e0888b9528ed0fb0bc2dbe77",
+      "sourceName": "contracts/GasEstimation.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts-ccip/src/v0.8/ccip/test/mocks/MockRouter.sol"
+      ],
+      "versionPragmas": [
+        "0.8.20"
+      ],
+      "artifacts": []
+    }
+  }
+}
